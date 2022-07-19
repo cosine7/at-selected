@@ -1,0 +1,67 @@
+@import 'mixins/flex.less';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+
+nav {
+    background-color: #eaeaea;
+    height: 30px;
+    .flexCenter();
+    font-size: 13px;
+
+    .nav-wrapper {
+        width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        
+        .divider {
+            height: 100%;
+            width: 1px;
+            background-color: #b3aeae;
+            margin: 0 5px;
+        }
+
+        .nav-left {
+            .flexCenter();
+
+            h4 {
+                margin-right: 5px;
+            }
+
+            button {
+                border: none;
+                cursor: pointer;
+                color: #999;
+
+                &:hover {
+                    color: #F56C6C;
+                }
+            }
+        }
+
+        .nav-right {
+            list-style-type: none;
+            .flexCenter();
+
+            li {
+                color: #999;
+                cursor: pointer;
+
+                &:hover {
+                    color: #F56C6C;
+                }
+            }
+        }
+    }
+}

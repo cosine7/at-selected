@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+nav {
+  background-color: #eaeaea;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
+nav .nav-wrapper {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+nav .nav-wrapper .divider {
+  height: 100%;
+  width: 1px;
+  background-color: #b3aeae;
+  margin: 0 5px;
+}
+nav .nav-wrapper .nav-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .nav-wrapper .nav-left h4 {
+  margin-right: 5px;
+}
+nav .nav-wrapper .nav-left button {
+  border: none;
+  cursor: pointer;
+  color: #999;
+}
+nav .nav-wrapper .nav-left button:hover {
+  color: #F56C6C;
+}
+nav .nav-wrapper .nav-right {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .nav-wrapper .nav-right li {
+  color: #999;
+  cursor: pointer;
+}
+nav .nav-wrapper .nav-right li:hover {
+  color: #F56C6C;
+}
