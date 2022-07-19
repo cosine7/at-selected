@@ -16,7 +16,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 13px;
+  font-size: 12px;
 }
 nav .nav-wrapper {
   width: 1200px;
@@ -27,7 +27,7 @@ nav .nav-wrapper .divider {
   height: 100%;
   width: 1px;
   background-color: #b3aeae;
-  margin: 0 5px;
+  margin: 0 10px;
 }
 nav .nav-wrapper .nav-left {
   display: flex;
@@ -35,12 +35,13 @@ nav .nav-wrapper .nav-left {
   align-items: center;
 }
 nav .nav-wrapper .nav-left h4 {
-  margin-right: 5px;
+  margin-right: 10px;
 }
 nav .nav-wrapper .nav-left button {
   border: none;
   cursor: pointer;
   color: #999;
+  font-size: 12px;
 }
 nav .nav-wrapper .nav-left button:hover {
   color: #F56C6C;
