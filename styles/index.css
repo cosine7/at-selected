@@ -71,18 +71,19 @@ header .header-wrapper {
   width: 1200px;
   margin: 25px 0;
 }
-header img {
-  width: 175px;
-}
 header form {
   border: 3px solid #F56C6C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 header input {
-  height: 32px;
   width: 490px;
-  border: none;
   padding: 0 4px;
   outline: none;
+  height: 32px;
+  border: none;
+  line-height: 32px;
 }
 header button {
   height: 32px;
@@ -90,4 +91,5 @@ header button {
   color: #fff;
   background-color: #F56C6C;
   border: none;
+  cursor: pointer;
 }
