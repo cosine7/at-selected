@@ -47,10 +47,10 @@ nav .nav-wrapper .nav-left button:hover {
   color: #F56C6C;
 }
 nav .nav-wrapper .nav-right {
-  list-style-type: none;
   display: flex;
   justify-content: center;
   align-items: center;
+  list-style: none;
 }
 nav .nav-wrapper .nav-right li {
   color: #999;
@@ -58,4 +58,36 @@ nav .nav-wrapper .nav-right li {
 }
 nav .nav-wrapper .nav-right li:hover {
   color: #F56C6C;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  margin: 25px 0;
+}
+header img {
+  width: 175px;
+}
+header form {
+  border: 3px solid #F56C6C;
+}
+header input {
+  height: 32px;
+  width: 490px;
+  border: none;
+  padding: 0 4px;
+  outline: none;
+}
+header button {
+  height: 32px;
+  width: 68px;
+  color: #fff;
+  background-color: #F56C6C;
+  border: none;
 }
